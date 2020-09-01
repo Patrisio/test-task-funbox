@@ -1,0 +1,17 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  display: table;
+  margin: 0 auto;
+}
+
+#root {
+  display: table-cell;
+  vertical-align: middle;
+}

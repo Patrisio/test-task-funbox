@@ -1,0 +1,17 @@
+.product {
+  &__footer {
+    margin: 1.5rem 0;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  &__label {
+    color: $color-blue;
+    border-bottom: 1px dashed $color-blue;
+    cursor: pointer;
+  }
+
+  &__stock-out {
+    color: $color-yellow;
+  }
+}

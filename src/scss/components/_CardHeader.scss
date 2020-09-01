@@ -1,0 +1,23 @@
+.product {
+  &__header {
+    color: $color-black;
+    font-size: 1.4rem;
+    background-color: $color-white;
+    padding: 0 4.8rem;
+  }
+
+  &__brand-name {
+    font: {
+      size: 4.8rem;
+      weight: 700;
+    }
+  }
+
+  &__flavor {
+    font: {
+      size: 2.4rem;
+      weight: 700;
+    }
+    margin-bottom: 1.4rem;
+  }
+}

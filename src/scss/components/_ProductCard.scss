@@ -1,0 +1,27 @@
+.product {
+  font-family: 'Trebuchet MS', 'Arial', sans-serif;
+  border: 41px solid transparent;
+  border-bottom: none;
+  border-top: 10px solid transparent;
+  display: inline-block;
+  text-align: left;
+  overflow: hidden;
+
+  &__trigger {
+    display: none;
+  }
+
+  &__toggle {
+    cursor: pointer;
+  }  
+
+  &__content {
+    position: relative;
+    overflow: hidden;
+    border: 4px solid $color-blue;
+    border-top: none;
+    border-radius: 0 0 12px 12px;
+    height: 39.5rem;
+    transition: .3s all;
+  }
+}

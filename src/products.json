@@ -1,0 +1,51 @@
+[
+  {
+    "id":1,
+    "brand":"Сказочное заморское яство",
+    "foodType":"Нямушка",
+    "flavor":"с фуа-гра",
+    "productDescription": [
+      "10 порций",
+      "мышь в подарок"
+    ],
+    "weight":500,
+    "unit":"кг",
+    "notice":"Печень утки разварная с артишоками.",
+    "stockOutMessage": "Печалька, с фуа-гра закончился.",
+    "imageUrl": "/src/assets/images/cat.webp",
+    "stock": 3
+  },
+  {
+    "id":2,
+    "brand":"Сказочное заморское яство",
+    "foodType":"Нямушка",
+    "flavor":"с рыбой",
+    "productDescription": [
+      "40 порций",
+      "2 мыши в подарок"
+    ],
+    "weight":2000,
+    "unit":"кг",
+    "notice":"Головы щучьи с чесноком да свежайшая сёмгушка.",
+    "stockOutMessage": "Печалька, с рыбой закончился.",
+    "imageUrl": "/src/assets/images/cat.webp",
+    "stock": 4
+  },
+  {
+    "id":3,
+    "brand":"Сказочное заморское яство",
+    "foodType":"Нямушка",
+    "flavor":"с курой",
+    "productDescription": [
+      "100 порций",
+      "5 мышей в подарок",
+      "заказчик доволен"
+    ],
+    "weight":5000,
+    "unit":"кг",
+    "notice":"Филе из цыплят с трюфелями в бульоне.",
+    "stockOutMessage": "Печалька, с курой закончился.",
+    "imageUrl": "/src/assets/images/cat.webp",
+    "stock": 0
+  }
+]

@@ -1,0 +1,43 @@
+.product {
+  &__trigger:disabled ~ &__toggle {
+    cursor: not-allowed;
+  }
+
+  &__trigger:disabled ~ &__toggle &__content &__main figure &__cover {
+    opacity: .5;
+  }
+
+  &__trigger:disabled ~ &__toggle &__content {
+    border: 4px solid $color-disabled;
+    border-top: none;
+  }
+
+  &__trigger:disabled ~ &__toggle .cropped-corner .cropped-corner__triangle::before {
+    
+    border-left: 3.34px solid $color-disabled;
+    //background: linear-gradient(-45deg, #fff, #fff 28.2px, $color-disabled 0, $color-disabled 32px, transparent 0);
+  }
+
+  &__trigger:disabled ~ &__toggle .cropped-corner .cropped-corner__rectangle {
+    border-top: 4px solid $color-disabled;
+    border-right: 4px solid $color-disabled;
+  }
+
+  &__trigger:disabled ~ &__toggle &__content &__main &__weight {
+    background: $color-disabled;
+  }
+
+  &__header--disabled {
+    color: $color-disabled;
+  }
+
+  &__description--disabled {
+    color: $color-disabled;
+  }
+
+  .cropped-corner__rectangle--disabled {
+    border-right: 4px solid $color-disabled;
+    border-top: 4px solid $color-disabled;
+    color: $color-disabled;
+  }
+}

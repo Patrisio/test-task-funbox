@@ -1,0 +1,63 @@
+.cropped-corner {
+  display: flex;
+  width: 100%;
+
+  &__triangle {
+    position: relative;
+    width: 4.38rem;
+    height: 4rem;
+    background: transparent;
+    // border-left: 3.34px solid #1698d9;
+    // -webkit-transform: skew(-51deg,35deg);
+    // transform: skew(-50deg,35deg);
+    // top: 15.6px;
+    // left: 23.6px;
+    z-index: -1;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 4.38rem;
+      height: 5rem;
+      background: #fff;
+      border-left: 3.34px solid #1698d9;
+      -webkit-transform: skew(-51deg,35deg);
+      transform: skew(-48.1deg,35deg);
+      top: 8.6px;
+      left: 23.6px;
+      z-index: -1;
+      transition: .3s all;
+    }
+    // position: relative;
+    // width: 4.38rem;
+    // height: 4.45rem;
+    // background: $color-white;
+    // border-left: 4px solid $color-blue;
+    // -webkit-background: linear-gradient(-45deg, #fff, #fff 28.2px, $color-blue 0, $color-blue 32px, transparent 0);
+    //background: linear-gradient(90deg, rgba(255,255,255,1), rgba(255,255,255,1) 28.2px, rgba(22,152,217,1) 0, rgba(22,152,217,1) 32px, rgba(255,255,255,0) 0);
+  
+    // background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+    // background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    //background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+  
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */
+  // background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+  // background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  // background: linear-gradient(90deg,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+  }
+
+  &__rectangle {
+    flex-grow: 1;
+    padding: 15px 0 0 8px;
+    border: 4px solid $color-blue;
+    border-bottom: none;
+    border-left: none;
+    border-radius: 0 12px 0 0;
+    background-color: $color-white;
+    color: $color-grey;
+    font-size: 1.6rem;
+    transition: .3s all;
+  } 
+}

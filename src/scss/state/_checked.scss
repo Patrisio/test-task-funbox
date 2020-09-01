@@ -1,0 +1,24 @@
+.product {
+  &__trigger:checked ~ &__toggle &__content {
+    border: 4px solid $color-raspberry;
+    border-top: none;
+  }
+
+  &__trigger:checked ~ &__toggle .cropped-corner .cropped-corner__triangle::before {
+    border-left: 3.34px solid $color-raspberry;
+    //background: linear-gradient(-45deg, #fff, #fff 28.2px, $color-raspberry 0, $color-raspberry 32px, transparent 0);
+  }
+
+  &__trigger:checked ~ &__toggle .cropped-corner .cropped-corner__rectangle {
+    border-top: 4px solid $color-raspberry;
+    border-right: 4px solid $color-raspberry;
+  }
+
+  &__trigger:checked ~ &__toggle &__content &__main &__weight {
+    background: $color-raspberry;
+  }
+}
+
+.cropped-corner__rectangle--checked {
+  color: $color-raspberry;
+}
